@@ -91,5 +91,4 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
   </component>
->>>>>>> d9c5bea631c92143f8f7754b01f67daf117ac7fa
 </module>
