@@ -7,7 +7,7 @@ import java.sql.Date;
 @Table(name = "params")
 public class Param {
     @Id @GeneratedValue
-    private int id;
+    private long id;
     @Column(name = "text_value")
     private String textValue;
     @Column(name = "number_value")

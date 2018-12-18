@@ -1,4 +1,6 @@
 package dao.models;
 
-public class Film {
+public class User {
+    private String name;
+    private int age;
 }

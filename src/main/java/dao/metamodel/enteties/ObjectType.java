@@ -9,6 +9,6 @@ import javax.persistence.Table;
 @Table(name = "object_type")
 public class ObjectType {
     @Id @GeneratedValue
-    private int id;
+    private long id;
     private String name;
 }

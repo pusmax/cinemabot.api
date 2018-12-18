@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Table(name = "attributes")
 public class Attribute {
     @Id @GeneratedValue
-    private int id;
+    private long id;
     private String name;
     private ObjectType objectType;
 }
