@@ -3,8 +3,8 @@ package dao.metamodel;
 import java.util.List;
 
 public interface MetaModelRepository<T> {
-    List<T> GetAll();
-    T GetById(int id);
-    void Save(T entity);
-    void Delete(T entity);
+    List<T> getAll();
+    T get(int id);
+    void save(T entity);
+    void delete(T entity);
 }

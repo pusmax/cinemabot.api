@@ -4,22 +4,22 @@ import java.util.List;
 
 public class MetaModelRepositoryImpl<T> implements MetaModelRepository<T> {
     @Override
-    public List<T> GetAll() {
+    public List<T> getAll() {
         return null;
     }
 
     @Override
-    public T GetById(int id) {
+    public T get(int id) {
         return null;
     }
 
     @Override
-    public void Save(T entity) {
+    public void save(T entity) {
 
     }
 
     @Override
-    public void Delete(T entity) {
+    public void delete(T entity) {
 
     }
 }
