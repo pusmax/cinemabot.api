@@ -1,6 +1,5 @@
 package controllers;
 
-import dao.UserRepository;
 import dao.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
